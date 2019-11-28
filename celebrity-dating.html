@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Dating</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>What Celeb should you date?</h1>
+
+      <p>Take the quiz to find out which celebrity is most compatible with you!</p>
+
+      <form id="compatible">
+      
+        <label for="book">Favorite book?</label>
+        <select id="book"type="text">
+          <option value="book1">The Great Gatsby</option>
+          <option value="book2">War and Peace</option>
+          <option value="book3">Hamlet</option>
+          <option value="book4">Lord of the flies</option>
+
+        <label for="color">Favorite color?</label>
+        <select id="color"type="text">
+          <option value="Red">Red</option>
+          <option value="Green">Green</option>
+          <option value="Blue">Blue</option>
+          <option value="pink">Pink</option>
+
+        <label for="country">Favorite country</label>
+        <select id="country" type="text">
+          <option value="France">France</option>
+          <option value="Brazil">Brazil</option>
+          <option value="Japan">Japan</option>
+          <option value="South Afrca">South Africa</option>
+
+        <label for="gender">Gender</label>
+          <select id="gender" type="text">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+
+        <button type="submit" class="btn">Which Celebrity?</button>
+      </form>
+
+      <div id="quote">
+        <p>You are most compatible with$<span id="celebrity"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
